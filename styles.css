@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Marcellus&family=Oxanium:wght@200..800&display=swap');
+
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 2rem;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-family: "Oxanium", sans-serif;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #0f3327;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+th, td {
+  padding: 1rem;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+}
+
+tr:hover {
+  background-color: #165234;
+  cursor: pointer;
+}
+
+td.position {
+  font-weight: bold;
+}
+
+td.position.gold {
+  color: #d4af37;
+  font-size: 1.5rem;
+}
+
+td.position.silver {
+  color: #c0c0c0;
+  font-size: 1.3rem;
+}
+
+td.position.bronze {
+  color: #cd7f32;
+  font-size: 1.2rem;
+}
+
+.expand-row td {
+  background-color: #59635c;
+  text-align: center;
+  padding-left: 2rem;
+  border-bottom: none;
+}
